@@ -5,6 +5,8 @@ import com.example.factorymethodex.domain.Role;
 public record UserRegisterReq(
         String name,
         String email,
-        Role role
+        Role role,
+        String userNo,
+        String department
 ) {
 }

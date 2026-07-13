@@ -12,6 +12,8 @@ public class StudentFactory implements com.example.factorymethodex.factory.UserF
                 req.name()
                 , req.email()
                 , Role.STUDENT
+                , req.userNo()
+                , req.department()
         );
     }
 }

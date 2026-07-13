@@ -12,6 +12,8 @@ public class ProfessorFactory implements com.example.factorymethodex.factory.Use
                 req.name()
                 , req.email()
                 , Role.PROFESSOR
+                ,"P-" + req.userNo()
+                , req.department()
         );
     }
 }

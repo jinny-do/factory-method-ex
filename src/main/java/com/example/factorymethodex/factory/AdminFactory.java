@@ -12,6 +12,8 @@ public class AdminFactory implements com.example.factorymethodex.factory.UserFac
                 req.name()
                 , req.email()
                 , Role.ADMIN
+                ,"A-" + req.userNo()
+                , req.department()
         );
     }
 }
